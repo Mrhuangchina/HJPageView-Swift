@@ -14,6 +14,11 @@
 		A34130C91F13BED000424752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34130C71F13BED000424752 /* LaunchScreen.storyboard */; };
 		A34130D41F13BED000424752 /* HJPageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34130D31F13BED000424752 /* HJPageViewTests.swift */; };
 		A34130DF1F13BED000424752 /* HJPageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34130DE1F13BED000424752 /* HJPageViewUITests.swift */; };
+		A34130F61F13BF5300424752 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34130F51F13BF5300424752 /* UIColor+Extension.swift */; };
+		A3EE66BB1F17A27800A2A663 /* HJContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE66B71F17A27800A2A663 /* HJContentView.swift */; };
+		A3EE66BC1F17A27800A2A663 /* HJPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE66B81F17A27800A2A663 /* HJPageView.swift */; };
+		A3EE66BD1F17A27800A2A663 /* HJTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE66B91F17A27800A2A663 /* HJTitleStyle.swift */; };
+		A3EE66BE1F17A27800A2A663 /* HJTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3EE66BA1F17A27800A2A663 /* HJTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		A34130DA1F13BED000424752 /* HJPageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HJPageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34130DE1F13BED000424752 /* HJPageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HJPageViewUITests.swift; sourceTree = "<group>"; };
 		A34130E01F13BED000424752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34130F51F13BF5300424752 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+Extension.swift"; path = "../../HJTV/HJTV/Classes/Main/Extensions/UIColor+Extension.swift"; sourceTree = "<group>"; };
+		A3EE66B71F17A27800A2A663 /* HJContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJContentView.swift; sourceTree = "<group>"; };
+		A3EE66B81F17A27800A2A663 /* HJPageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJPageView.swift; sourceTree = "<group>"; };
+		A3EE66B91F17A27800A2A663 /* HJTitleStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJTitleStyle.swift; sourceTree = "<group>"; };
+		A3EE66BA1F17A27800A2A663 /* HJTitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HJTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,10 @@
 		A34130BD1F13BED000424752 /* HJPageView */ = {
 			isa = PBXGroup;
 			children = (
+				A3EE66B61F17A27800A2A663 /* HJPageView */,
 				A34130BE1F13BED000424752 /* AppDelegate.swift */,
 				A34130C01F13BED000424752 /* ViewController.swift */,
+				A34130F51F13BF5300424752 /* UIColor+Extension.swift */,
 				A34130C21F13BED000424752 /* Main.storyboard */,
 				A34130C51F13BED000424752 /* Assets.xcassets */,
 				A34130C71F13BED000424752 /* LaunchScreen.storyboard */,
@@ -123,6 +135,18 @@
 				A34130E01F13BED000424752 /* Info.plist */,
 			);
 			path = HJPageViewUITests;
+			sourceTree = "<group>";
+		};
+		A3EE66B61F17A27800A2A663 /* HJPageView */ = {
+			isa = PBXGroup;
+			children = (
+				A3EE66B81F17A27800A2A663 /* HJPageView.swift */,
+				A3EE66BA1F17A27800A2A663 /* HJTitleView.swift */,
+				A3EE66B71F17A27800A2A663 /* HJContentView.swift */,
+				A3EE66B91F17A27800A2A663 /* HJTitleStyle.swift */,
+			);
+			name = HJPageView;
+			path = ../../../../Mrhuang/Desktop/HJPageView/HJPageView/HJPageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +283,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3EE66BC1F17A27800A2A663 /* HJPageView.swift in Sources */,
+				A34130F61F13BF5300424752 /* UIColor+Extension.swift in Sources */,
 				A34130C11F13BED000424752 /* ViewController.swift in Sources */,
+				A3EE66BD1F17A27800A2A663 /* HJTitleStyle.swift in Sources */,
 				A34130BF1F13BED000424752 /* AppDelegate.swift in Sources */,
+				A3EE66BB1F17A27800A2A663 /* HJContentView.swift in Sources */,
+				A3EE66BE1F17A27800A2A663 /* HJTitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,6 +534,7 @@
 				A34130E51F13BED000424752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A34130E61F13BED000424752 /* Build configuration list for PBXNativeTarget "HJPageViewTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +543,7 @@
 				A34130E81F13BED000424752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A34130E91F13BED000424752 /* Build configuration list for PBXNativeTarget "HJPageViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +552,7 @@
 				A34130EB1F13BED000424752 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
